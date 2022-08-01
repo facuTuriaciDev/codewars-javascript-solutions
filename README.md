@@ -1,1 +1,1 @@
-# codewars-solutions
+# My codewars solutions in Javascript! 
