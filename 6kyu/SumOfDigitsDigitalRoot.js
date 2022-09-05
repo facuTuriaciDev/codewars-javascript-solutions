@@ -15,7 +15,7 @@ https://www.codewars.com/kata/541c8630095125aba6000c00
 function digitalRoot(n) {
   do {
     n = Array.from(String(n), Number).reduce((a, b) => a + b, 0);
-  } while (n => 10);
+  } while (n > 9);
 
   return n;
 }
